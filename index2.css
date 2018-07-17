@@ -1,0 +1,24 @@
+body {background-color:lightyellow; }
+
+a {color:green; text-decoration:none;}
+footer {clear:left; text-align:center; background-color:darkorange; }
+
+header {
+	background: url('imagenes/gimnasio.jpeg') no-repeat;
+	background-size: 100% 100%;
+	color: black;
+	border-style:solid;
+	margin-bottom:5%;
+	display: flex;
+	justify-content: space-between;
+}
+header img {margin-left:2%; margin-top:1%; width:140px; height:140px;}
+header h1 { text-align:center; background-color:white; border-style:solid;
+						width:30%; height:5%; margin-top:8%; margin-left:8%;}
+header section {background-color:white; width:15%; height:10%; padding:2%; margin-top:7%; }
+
+#izq img {width:90%; height:40%; margin-bottom:5%; margin-left:4%; }
+#izq {float:left; width:50%; margin-left:5%; margin-bottom:5%; }
+
+#der {list-style:none; text-align:center; font-size:250%; margin-top:10%; }
+#der li {margin:4% 0%;}

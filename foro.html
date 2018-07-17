@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Foro</title>
+		<link rel="stylesheet" type="text/css" href="foro.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index2.html">
+				<img src="imagenes/logo.jpeg" alt="logo"/>
+			</a>
+
+			<h1>GYMSIIT</h1>
+
+			<section>
+				Conectado como <strong>admin</strong> <br>
+				<a href="index.html">Desconectar</a>
+			</section>
+		</header>
+
+		<nav>
+			Secciones
+			<ul>
+				<li><a href="actividades.html">Actividades</a></li>
+				<li><a href="horario.html">Horario</a></li>
+				<li><a href="tecnicos.html">Técnicos</a></li>
+				<li><a href="altausuario.html">Alta de Usuarios</a></li>
+				<li><a href="foro.html">Foro</a></li>
+			</ul>
+		</nav>
+
+	  <h3 id="t">Temas en el foro:</h3>
+
+	  <details>
+			<summary>Clase de pilates del lunes</summary>
+
+			<img src="imagenes/admin.jpeg" alt="admin"/>
+		  <p><strong>admin</strong> abrió el hilo el día 18/02/2018 a las 12:59: <br> Os comunicamos que el próximo lunes no habrá clase
+			de pilates debido a la enfermedad del técnico.</p>
+
+		  <img src="imagenes/albertosml.png" alt="albertosml"/>
+		  <p><strong>albertosml</strong> respondió el día 19/02/2018 a las 00:45: <br> Que se ponga el profesor bueno.</p>
+
+		  <img src="imagenes/pepe.jpeg" alt="pepe"/>
+		  <p> <strong>Pepe</strong> respondió el día 19/02/2018 a las 10:45: <br> Profe, menos mal que
+		  hoy no hay clase porque tengo un resacón...</p>
+
+			<p id="res"><strong>Responder hilo</strong></p>
+
+			<form action="foro.html" method="post">
+				<label for="username">Nombre de usuario</label> <br>
+				<input type="text" id="username" name="username" placeholder="Pon el nombre de usuario" required/> <br>
+
+				<label for="response">Respuesta</label> <br>
+				<textarea id="response" rows="3" cols="50"></textarea> <br>
+
+				<input type="submit" id="button" value="Responder hilo" />
+			</form>
+		</details>
+
+		<details>
+			<summary>Fiesta Fin De Curso</summary>
+
+			<img src="imagenes/pepe.jpeg" alt="pepe"/>
+			<p> <strong>Pepe</strong> abrió el hilo el día 28/03/2018 a las 12:59: <br> Como ya se acerca el verano, os propongo que podríamos hacer
+			un botellón en la entrada del centro deportivo para celebrar lo cachas que nos hemos puesto.</p>
+
+			<img src="imagenes/albertosml.png" alt="albertosml"/>
+			<p> <strong>albertosml</strong> respondió el día 28/03/2018 a las 14:45: <br> Me parece buena idea.</p>
+
+			<img src="imagenes/admin.jpeg" alt="admin"/>
+			<p> <strong>admin</strong> respondió el día 29/03/2018 a las 22:45: <br> Mejor hacemos un barril con los estudiantes de la ETSIIT.</p>
+
+			<p id="res1"><strong>Responder hilo</strong></p>
+
+			<form action="foro.html" method="post">
+				<label for="username1">Nombre de usuario</label> <br>
+				<input type="text" id="username1" name="username1" placeholder="Pon el nombre de usuario" required/> <br>
+
+				<label for="response1">Respuesta</label> <br>
+				<textarea id="response1" rows="3" cols="50"></textarea> <br>
+
+				<input type="submit" id="button1" value="Responder hilo" />
+			</form>
+		</details>
+
+		<details>
+			<summary>Inaguración página web</summary>
+
+			<img src="imagenes/admin.jpeg" alt="admin"/>
+			<p><strong>admin</strong> abrió el hilo el día 15/04/2018 a las 23:59: <br>
+			Escribo para comunicaros que ya podéis ver la nueva versión de la página web, con la interfaz mejorada y muchas más novedades.</p>
+
+     	<img src="imagenes/albertosml.png" alt="albertosml"/>
+			<p> <strong>albertosml</strong> respondió el día 16/04/2018 a las 00:00: <br> Que web más chula.</p>
+
+			<img src="imagenes/profesor.jpg" alt="profesor"/>
+			<p> <strong>profesor</strong> respondió el día 16/04/2018 a las 00:45: <br> A ver si es verdad...</p>
+
+			<p id="res2"><strong>Responder hilo</strong></p>
+
+			<form action="foro.html" method="post">
+				<label for="username2">Nombre de usuario</label> <br>
+				<input type="text" id="username2" name="username" placeholder="Pon el nombre de usuario" required/> <br>
+
+				<label for="response2">Respuesta</label> <br>
+				<textarea id="response2" rows="3" cols="50"></textarea> <br>
+
+				<input type="submit" id="button2" value="Responder hilo" />
+			</form>
+		</details>
+
+		<strong id="new">Nuevo hilo</strong>
+
+		<form id="create" action="foro.html" method="post">
+			<label for="titulo">Título</label> <br>
+			<input type="text" id="titulo" name="titulo" placeholder="Pon el título del hilo" required/> <br>
+
+			<label for="description">Descripción</label> <br>
+			<textarea id="description" rows="3" cols="50"></textarea> <br>
+
+			<input type="submit" id="button3" value="Crear hilo" />
+		</form>
+
+		<footer>
+			<h2> <a href="contacto.html">Contacto</a> - <a href="como_se_hizo.pdf">Como se hizo</a> </h2>
+		</footer>
+	</body>
+</html>
