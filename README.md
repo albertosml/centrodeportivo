@@ -6,4 +6,3 @@ La web incluye una portada de inicio, varias secciones (actividades, horario, fo
 
 Nota: La página está realizada con HTML y CSS, en mi repositorio GYMSIIT encontraréis la web más avanzada y programada también en PHP y Javascript a la cual le doy principalmente "vida" a los usuarios y al foro.
 
-IMPORTANTE: Solo se puede acceder a esta web usando la VPN de la Universidad de Granada (UGR)
